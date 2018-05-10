@@ -3,4 +3,4 @@ Simple React Native authentication flow with react-navigation. The app is divide
 
 ![navigation-diagram](http://around25.com/blog/content/images/2018/05/navigation-diagram-resized.png)
 
-Read the article [here](http://around25.com/blog).
+Read the article [here](http://around25.com/blog/).

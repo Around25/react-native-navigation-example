@@ -4,7 +4,6 @@ import { View, ActivityIndicator, StyleSheet } from 'react-native'
 import { getRootNavigator } from './navigator'
 import { isLoggedIn } from './api/auth'
 
-
 export default class Root extends Component {
   constructor(props) {
     super(props);
