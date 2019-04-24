@@ -1,11 +1,11 @@
-import { createStackNavigator } from 'react-navigation'
+import { createAppContainer, createStackNavigator } from 'react-navigation'
 
 import Login from '../components/Login'
 
-const LoggedOutNavigator = createStackNavigator({
+const LoggedOutNavigator = createAppContainer (createStackNavigator({
   Login: {
     screen: Login
   }
-});
+}));
 
 export default LoggedOutNavigator
